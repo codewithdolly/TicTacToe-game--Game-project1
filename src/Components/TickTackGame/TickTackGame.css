@@ -1,0 +1,33 @@
+.tickTackGame{
+display: flex;
+height: 80vh;
+}
+
+.tickTackGame--table{
+    margin: auto;
+}
+
+
+table,tr{
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    border-collapse: collapse;
+    /* padding: 1rem 2rem; */
+  
+    color: rgb(32, 165, 165);
+   
+    text-align: center;
+}
+
+
+td{
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    width: 90px;
+    padding: 10px;
+    height: 10vh;
+     font-size: 40px;
+}
+
+
+
+
+
