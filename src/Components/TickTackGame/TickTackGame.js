@@ -98,7 +98,7 @@ const TickTackGame = () => {
           </Button>
           {winner && (
             <>
-              <Box sx={{display:"flex", my: 2, alignItems:"center" }}>
+              <Box sx={{display:"flex", my: 0, alignItems:"center" }}>
                 {" "}
                 <h2>{winner} is the Winner!🎉</h2>
                 <Button
@@ -108,13 +108,16 @@ const TickTackGame = () => {
                 >
                   Play Again
                 </Button>
+               
               </Box>
-              <small style={{color:"silver"}}>© Copyright Reserved 2022 | Developed by <a href="https://www.youtube.com/watch?v=i-HAFccHeZ0&t=4s">CodeWithDolly</a></small>
+             
             </>
           )}
-         
+          <div style={{marginTop:"2rem"}}><small style={{color:"silver"}}>© Copyright Reserved 2022 | Developed by <a href="https://www.youtube.com/watch?v=i-HAFccHeZ0&t=4s">CodeWithDolly</a></small></div>
         </Box>
+        
       </Box>
+   
     </>
   );
 };
