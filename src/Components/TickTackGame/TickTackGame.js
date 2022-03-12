@@ -109,6 +109,7 @@ const TickTackGame = () => {
                   Play Again
                 </Button>
               </Box>
+              <small style={{color:"silver"}}>© Copyright Reserved 2022 | Developed by <a href="https://www.youtube.com/watch?v=i-HAFccHeZ0&t=4s">CodeWithDolly</a></small>
             </>
           )}
          
